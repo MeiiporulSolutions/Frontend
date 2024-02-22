@@ -1,0 +1,21 @@
+/* Define the initial state for the fade transition */
+.fade-enter {
+  opacity: 0;
+}
+
+/* Define the final state for the fade transition */
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 900ms;
+}
+
+/* Define the initial state for the fade out transition */
+.fade-exit {
+  opacity: 1;
+}
+
+/* Define the final state for the fade out transition */
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 900ms;
+}
